@@ -4,12 +4,12 @@
 
 | Nama | NRP |
 |------|-----|
-| Nama Anggota 1 | NRP Anggota 1 |
-| Nama Anggota 2 | NRP Anggota 2 |
-| Nama Anggota 3 | NRP Anggota 3 |
-| Nama Anggota 4 | NRP Anggota 4 |
-| Nama Anggota 5 | NRP Anggota 5 |
-| Nama Anggota 6 (hapus jika tidak ada) | NRP Anggota 6 |
+| Maleka Ghaniya | 5025241189 |
+| Jorell Ramos Sinaga | 5025241202 |
+| Ida Bagus Gde Dimas Sutha Maha |  5025241218 |
+| Denzel Daniels | 5025241228 |
+| Mayandra Suhaira Frisiandi | 5025241240 |
+| M. Haziq Ridwan Parsa | 5025251053 |
 
 ## Langkah Pengerjaan
 
