@@ -1,55 +1,35 @@
-# Menjalankan `member1` Secara Manual
+# Menjalankan Semua Node
 
-ROS 2 dan `turtlesim` harus sudah terpasang. **Ketik perintah langsung di dua terminal; tidak ada skrip `.sh` atau `.cmd`.** Ganti lokasi ROS dan repo di bawah jika berbeda. Saat ini program hanya menggambar angka **1**, lalu menunggu `member2`.
+Siapkan ROS 2, `turtlesim`, dan `colcon`. Repo ini harus berada di folder `src` workspace (`ros2_ws/src`). Jalankan perintah berikut **manual di satu terminal**. Ganti path ROS jika lokasi instalasimu berbeda.
 
 ## Linux
 
-Terminal 1 (turtlesim):
-
 ```bash
 source /opt/ros/jazzy/setup.bash
-ros2 run turtlesim turtlesim_node
-```
-
-Terminal 2 (member1):
-
-```bash
-source /opt/ros/jazzy/setup.bash
-cd ~/ros2_ws/src
-PYTHONPATH="$PWD/digit_relay:$PYTHONPATH" python3 -m digit_relay.member1
+cd ~/ros2_ws
+colcon build --packages-select digit_relay
+source install/setup.bash
+ros2 launch digit_relay relay.launch.py
 ```
 
 ## macOS
 
-Terminal 1 (turtlesim):
-
 ```bash
 source ~/ros2_jazzy/install/setup.bash
-ros2 run turtlesim turtlesim_node
-```
-
-Terminal 2 (member1):
-
-```bash
-source ~/ros2_jazzy/install/setup.bash
-cd ~/ros2_ws/src
-PYTHONPATH="$PWD/digit_relay:$PYTHONPATH" python3 -m digit_relay.member1
+cd ~/ros2_ws
+colcon build --packages-select digit_relay
+source install/setup.bash
+ros2 launch digit_relay relay.launch.py
 ```
 
 ## Windows (Command Prompt)
 
-Terminal 1 (turtlesim):
-
 ```bat
 call C:\dev\ros2_jazzy\local_setup.bat
-ros2 run turtlesim turtlesim_node
+cd /d C:\ros2_ws
+colcon build --merge-install --packages-select digit_relay
+call install\setup.bat
+ros2 launch digit_relay relay.launch.py
 ```
 
-Terminal 2 (member1):
-
-```bat
-call C:\dev\ros2_jazzy\local_setup.bat
-cd /d C:\ros2_ws\src
-set "PYTHONPATH=%CD%\digit_relay;%PYTHONPATH%"
-python -m digit_relay.member1
-```
+Launch menjalankan `turtlesim_node` dan `member1`–`member6`. Saat ini `member2`–`member6` masih skeleton, jadi rangkaian angka 1–12 baru berjalan penuh setelah semua anggota mengisi nodenya.
