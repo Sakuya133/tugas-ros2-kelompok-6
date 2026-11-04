@@ -6,6 +6,9 @@
 #   2. kalau active_member == 4, gambar angkanya di slot di atas
 #   3. publish [angka+1, 5] untuk mengoper giliran ke anggota 5
 
+# Jorell Ramos Sinaga	
+# 5025241202
+
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, DurabilityPolicy

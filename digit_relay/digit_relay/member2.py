@@ -1,6 +1,7 @@
 # member2.py
 # Node Anggota 2 (hijau), slot (x=4.5, y=6.5)
-
+# Mayandra Suhaira Frisiandi	
+# 5025241240
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, DurabilityPolicy

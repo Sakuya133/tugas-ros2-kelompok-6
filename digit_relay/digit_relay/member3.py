@@ -7,6 +7,9 @@
 #   2. kalau active_member == 3, gambar angkanya di slot di atas
 #   3. publish [angka+1, 4] untuk mengoper giliran ke anggota 4
 
+# M. Haziq Ridwan Parsa	
+# 5025251053
+
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, DurabilityPolicy

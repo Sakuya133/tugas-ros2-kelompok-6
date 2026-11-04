@@ -7,6 +7,9 @@
 #   3. siklus 1 (angka 6)  -> publish [7, 1] untuk mengoper giliran ke anggota 1
 #   4. siklus 2 (angka 12) -> selesai, tidak mengoper giliran, node berhenti
 
+# Denzel Daniels	
+# 5025241228
+
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, DurabilityPolicy

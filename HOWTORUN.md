@@ -32,4 +32,4 @@ call install\setup.bat
 ros2 launch digit_relay relay.launch.py
 ```
 
-Launch menjalankan `turtlesim_node` dan `member1`–`member6`. Saat ini `member2`–`member6` masih skeleton, jadi rangkaian angka 1–12 baru berjalan penuh setelah semua anggota mengisi nodenya.
+Launch menjalankan `turtlesim_node` dan `member1`–`member6`.

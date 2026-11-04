@@ -7,6 +7,9 @@
 #   2. kalau active_member == 5, gambar angkanya di slot di atas
 #   3. publish [angka+1, 6] untuk mengoper giliran ke anggota 6
 
+# Maleka Ghaniya	
+# 5025241189
+
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, DurabilityPolicy
